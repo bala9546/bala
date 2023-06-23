@@ -1,0 +1,141 @@
+pwd
+whoami
+who am i
+hostname
+uname -r
+uname -a
+last 
+lastlogin
+users
+date
+cal
+cal 2023
+hostnamectl
+cat /etc/os-release
+cat /etc/redhat-release
+cat /etc/rockylinux-release
+tree
+rpm -q packagename
+rpm -qi packagename
+rpm -Rqi packagename
+yum list installed
+yum list available
+yum update -y
+yum remove packagename
+chmod ugo+rwx filename
+chmod ugo-rwx filename
+chmod 777 filename
+chmod 666 filename
+chmod 555 filename
+chmod 444 filename
+chmod 333 filename
+chmod 222 filename
+chmod 111 filename
+cat >filename
+cat >>filename
+cat filename
+ctrl+d
+cat /destination-directry/filename
+cat>/destinatio-directory/filename
+cat /destination-directory/filename
+touch filename
+touch filename filename ....nth filename
+touch filename{1..nthfilename}
+mkdir directory-name
+mkdir directory-name directory-name.. nth directory-name
+mkdir directory-name{1..nth directory-name}
+mkdir-p /directry-name/directory-name/.directory-name
+ls
+ls -l
+ls -a
+ls -la
+ls -r
+ls -lra
+ls -o
+ll
+ll -a
+ll -r
+ll -o
+ll -ro
+
+mv filename new-file
+mv source-path destination-path
+cp file-name new-filename
+cp source-file-path destination-path
+cp -r source-directory-path destination-path
+cp -rvfp source directory-path destination-path
+cp source-directory-path
+cp -rvpf source-directory-path
+rm filename
+rm source-path/filename
+rm -f filename
+rm -f filename filename ..nthfilename
+rm filename{start..endnumber}
+rm -f filename{startnumber..end-number}
+rm -f source-path/filename
+rm -r directoryname
+rm -r directoryname directory-name ..nthdirectory-name
+rm -r source-directory/directry-name
+
+rm -rf directoryname
+rm -rf directoryname directoryname ..nthdirectoryname
+rm -rf source-directoryname/directoryname
+cd directory-name
+cd directory-name/directory-name..nthdirectory-name
+cd ..
+cd ../../
+cd -
+
+init 0
+init 3
+init 5
+init 6
+
+runlevel
+reboot
+
+free -h
+free -m
+free -h
+free -k
+free -b
+
+lsblk
+fdisk -1
+du -h
+
+vi filename
+vim filename
+i
+I
+o
+O
+A
+a
+w
+b
+nw
+nb
+dd
+ndd
+yy
+nyy
+p
+hjkl
+u
+x
+X
+g
+G
+set nu
+et nonu
+:!command
+:w
+:wq
+:w!
+:q
+:q!
+:wq!
+/character-name
+/word-name
+
